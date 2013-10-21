@@ -1,0 +1,14 @@
+{
+  "name": "Amper2",
+  "description": "Another riff on Amper/Angular",
+  "version": "0.0.1",
+  "private": true,
+  "dependencies": {
+    "express": "3.4.2",
+    "coffee-script": "1.6",
+    "connect-assets": "2.5",
+    "jade": "0.35",
+    "less": "1.4.2",
+    "bootstrap": "git+https://github.com/twitter/bootstrap.git#v3.0.0"
+  }
+}
