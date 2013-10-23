@@ -3,10 +3,10 @@ var app = express();
 var path = require('path');
 
 app.use(require('connect-assets')({
-  
+  src: 'app'
 }));
 
-app.set('views', __dirname + '/views');
+app.set('views', __dirname + '/app');
 app.set('view engine', 'jade');
 
 app.use(express.logger('dev'));
